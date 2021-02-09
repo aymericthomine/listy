@@ -8,8 +8,8 @@
         <img width="30px;" src="/images/user.png">
     </a>
 
-    <a style="position: absolute; margin-bottom: 80px; margin-left: 125px;" href="{{ route('profile') }}">
-        <img width="90px;" src="/images/check.png" style="margin:auto;">
+    <a style="position: absolute; margin-bottom: 80px; text-align: center;" href="{{ route('profile') }}">
+        <img width="90px;" src="/images/check.png" style="margin-left:auto; margin-right:auto; display: block;">
     </a>
 
     <a href="{{ route('profile') }}">
