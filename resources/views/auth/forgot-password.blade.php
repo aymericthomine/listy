@@ -26,7 +26,6 @@
         <p style="color:white; margin-top: 30px; width: auto; text-align: center;">Enter your email and will send</p>
         <p style="color:white; width: auto; margin-bottom: 30px; text-align: center;">you instructions on how to reset it.</p>
 
-
         <x-jet-validation-errors class="mb-4"/>
 
         @if (session('status'))

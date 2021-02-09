@@ -11,21 +11,7 @@
         @include('navbar')
 
         <div style="margin-top: 150px;">
-        <form method="POST" action="{{ route('logout') }}">
-                                @csrf
-
-            <x-jet-dropdown-link href="{{ route('logout') }}"
-                        onclick="event.preventDefault();
-                            this.closest('form').submit();">
-                {{ __('Logout') }}
-            </x-jet-dropdown-link>
-
-            <x-jet-dropdown-link href="{{ route('profile.show') }}">
-                    
-                {{ __('Profile') }}
-            </x-jet-dropdown-link>
-
-        </form>
+       
         </div>
     </div>
 </x-guest-layout>

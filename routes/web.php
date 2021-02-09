@@ -26,5 +26,12 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/profile', function () {
-    return view('profile.show');
-});
+    return view('profile');
+})->name('profile');
+
+Route::get('/forgot-password/{token}'   , function (Request $request) {
+    if (! $request->hasValidSignature()) {
+        abort(401);
+    }
+    return view('login');
+})->name('auth.forgot-password');

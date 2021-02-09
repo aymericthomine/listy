@@ -1,3 +1,3 @@
-<div class="fixed-top container-fluid" style="margin:20px; text-align:center;">
-            <img src="/images/listy_rouge.png" style="width:125px;display: block;margin-left: auto;margin-right: auto">
+<div class="fixed-top container-fluid" style="margin-top: 30px; text-align:center;">
+            <img src="/images/listy_rouge.png" style="width:125px; margin:auto;">
 </div>
