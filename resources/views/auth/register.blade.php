@@ -2,6 +2,7 @@
     <div style="margin-left: 50px; margin-right: 50px;">
     
         <div style="display: flex; margin: 50px; justify-content: center;">
+        
             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 456 456">
                 <g id="Groupe_413" data-name="Groupe 413" transform="translate(3969 -3053)">
                     <g id="Tracé_490" data-name="Tracé 490" transform="translate(-3969 3053)" fill="none">
@@ -40,7 +41,7 @@
             </div>
 
             <div class="mt-4">
-                <input id="email" class="block mt-1 w-full" style="border-radius: 10px; height: 50px; margin-bottom: 20px;" type="email" name="email" :value="old('email')" placeholder="Email" required autofocus />
+                <input id="email" class="block mt-1 w-full" style="border-radius: 10px; height: 50px;" type="email" name="email" :value="old('email')" placeholder="Email" required autofocus />
             </div>
 
 
