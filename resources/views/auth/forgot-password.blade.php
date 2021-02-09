@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div style="margin-left: 50px; margin-right: 50px;">
-    
+
         <div style="margin:50px; text-align:center;">
 
             <a href="/login">
@@ -20,11 +20,12 @@
                 </svg>
             </a>
 
-            <h1 style="color:white; position:absolute; top:0; margin-top:55px; font-size:20px; font-weight:bold;">Forgot Password</h1>
+            <h1 style="color:white; width: auto; top:0; margin-top:55px; font-size:20px; font-weight:bold;">Forgot Password</h1>
         </div>
 
-        <p style="color:white; margin-top: 150px; width: 250px; text-align: center;">Enter your email and will send</p>
-        <p style="color:white; width: 250px; margin-bottom: 50px; text-align: center;">you instructions on how to reset it.</p>
+        <p style="color:white; margin-top: 60px; width: auto; text-align: center;">Enter your email and will send</p>
+        <p style="color:white; width: auto; margin-bottom: 110px; text-align: center;">you instructions on how to reset it.</p>
+
 
         <x-jet-validation-errors class="mb-4"/>
 
@@ -42,12 +43,12 @@
             </div>
 
             <div class="block mt-4">
-                
+
                 <button class="button-listy" style="margin-top: 80px;">
                     {{ __('Reset') }}
                 </button>
             </div>
-            
+
         </form>
     </div>
 </x-guest-layout>
@@ -58,7 +59,7 @@ html, body { height : 100%; }
 body {
     margin:0;
     padding:0;
-    background-image : url("/images/background.png");   
+    background-image : url("/images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +78,7 @@ body {
 }
 
 .button-listy:hover {
-    
+
 }
 
 .button-listy:active {
