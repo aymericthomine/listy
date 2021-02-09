@@ -22,7 +22,7 @@
 
             <h1 style="color:white; position:absolute; top:0; margin-top:55px; font-size:20px; font-weight:bold;">Forgot Password</h1>
         </div>
-        
+
         <p style="color:white; margin-top: 150px; width: 250px; text-align: center;">Enter your email and will send</p>
         <p style="color:white; width: 250px; margin-bottom: 50px; text-align: center;">you instructions on how to reset it.</p>
 
