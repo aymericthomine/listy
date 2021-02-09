@@ -10,6 +10,7 @@
 
         @include('navbar')
 
+        <div style="margin-top: 150px;">
         <form method="POST" action="{{ route('logout') }}">
                                 @csrf
 
@@ -19,6 +20,7 @@
                 {{ __('Logout') }}
             </x-jet-dropdown-link>
         </form>
+        </div>
     </div>
 </x-guest-layout>
 
