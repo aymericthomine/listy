@@ -6,9 +6,7 @@
     
     <div style="margin-left: 50px; margin-right: 50px;">
     
-        <div class="container-fluid" style="margin:20px; text-align:center;">
-            <img src="/images/listy_rouge.png" style="width:125px;display: block;margin-left: auto;margin-right: auto">
-        </div>
+        @include('header')
 
         @include('navbar')
 
