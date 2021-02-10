@@ -13,15 +13,19 @@
         <div style="margin-top: 150px;">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    
-    <h6>Popular Recipes</h6>
+    <div class="flex">
+    <h6 class="font-listy; mt-6; mb-6" style="color: #020202; font-size:20px; font-weight:bold;">Popular Recipes</h6>
+    <a class="mt-4; ml-12" href="{{ route('recipes') }}">
+    <h6 class="font-listy;" style="color: #020202; font-size:15px; color: #8C0428; text-align: right;">See all (45)</h6>
+    </a>
+    </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
 </div>
 
         </div>
@@ -65,5 +69,8 @@ body {
 .text-right {
     display: flex;
     justify-content: flex-end;
+}
+.font-listy{
+    font-family: "Roboto";
 }
 </style>
