@@ -19,8 +19,8 @@
     </a>
     @endif
 
-    <a style="position: absolute; margin-bottom: 70px;" href="{{ route('profile') }}">
-        <img width="80px;" src="/images/check.png" style="margin:auto;">
+    <a style="filter: drop-shadow(2px 2px 2px #8C0428); position: absolute; margin-bottom: 70px;" href="{{ route('profile') }}">
+        <img width="80px;" src="/images/navbar/check.png" style="margin:auto;">
     </a>
 
     @if(Route::is('map'))
