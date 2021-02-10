@@ -8,9 +8,11 @@
         <img width="30px;" src="/images/user.png">
     </a>
 
-    <a style="position: absolute; margin-bottom: 80px;" href="{{ route('profile') }}">
+    @if(Route::has('profile'))
+    <a style="position: absolute; margin-bottom: 80px; display: flex; justify-content: space-around;" href="{{ route('profile') }}">
         <img width="90px;" src="/images/check.png" style="margin:auto;">
-    </a>
+    </a> 
+    @endif
 
     <a href="{{ route('profile') }}">
         <img width="30px;" src="/images/map.png">

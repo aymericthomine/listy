@@ -28,7 +28,7 @@
 <h1 style="color: #020202; width: auto; top:0; margin-top:55px; font-size:20px; font-weight:bold;">My Profile</h1>
 </div>
 
-        @include('navbar_profile')
+        @include('navbar')
 
         <div style="margin-top: 150px;">
         <form method="POST" action="{{ route('logout') }}">
