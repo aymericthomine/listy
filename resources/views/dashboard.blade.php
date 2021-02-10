@@ -19,17 +19,16 @@
     <h6 class="font-listy;" style="color: #020202; font-size:15px; color: #8C0428; text-align: right;">See all (45)</h6>
     </a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto">
-     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
-     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
-</div>
-
-        </div>
-        
+        <div class="d-flex flex-row flex-nowrap overflow-auto">
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>            
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
+        </div>        
     </div>
+
+
 </x-guest-layout>
 
 <style>
