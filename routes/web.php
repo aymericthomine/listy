@@ -25,9 +25,12 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/profile', function () {
-    return view('profile');
-})->name('profile');
+Route::group(['middleware' => 'auth']   , function () {
+
+        Route::get('/profile'       , function () { return view('profile'); })->name('profile');
+        Route::get('/map'           , function () { return view('map'); })->name('map');
+
+});
 
 Route::get('/forgot-password/{token}'   , function (Request $request) {
     if (! $request->hasValidSignature()) {
