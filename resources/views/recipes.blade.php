@@ -10,15 +10,16 @@
 
     <a class="flex; fixed-top" href="{{ route('dashboard') }}">
             <img width="30px;" style="margin-top: 50px; margin-left: 30px;" src="/images/header/back_black.png">
-            <h1 style="color: #020202; font-size:20px; font-weight:bold;">Recipes</h1>
     </a>
+    <h1 class="mt-10; fixed-top" style="color: #020202; font-size:20px; font-weight:bold; margin-top: 50px;">Recipes</h1>
+
 
     </div>
 
             @include('navbar')
 
             <div style="margin-top: 150px;">
-            
+
             </div>
     </div>
 
