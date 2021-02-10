@@ -44,6 +44,10 @@ return [
             'timeout' => null,
             'auth_mode' => null,
         ],
+        
+        'mailjet' => [
+            'transport' => 'mailjet',
+        ],
 
         'ses' => [
             'transport' => 'ses',

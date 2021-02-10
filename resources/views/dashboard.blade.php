@@ -20,12 +20,11 @@
     </a>
     </div>
     <div class="d-flex flex-row flex-nowrap overflow-auto">
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
-     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px; border-radius: 10px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
+     <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
 </div>
 
         </div>
