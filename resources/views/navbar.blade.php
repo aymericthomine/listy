@@ -102,13 +102,30 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <div class="modal-content">
     <span class="close">&times;</span>
     <h1>New List</h1>
-    <p>Some text in the Modal..</p>
+    <p>Number of meals</p>
+
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">10</label>
+</div>
     <button class="button-listy" style="margin-top: 80px;">
                     {{ __('Generate') }}
     </button>
   </div>
 
 </div>
+
+<style>
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+</style>
 
 <script>
 var modal = document.getElementById("myModal");
