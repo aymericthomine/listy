@@ -10,11 +10,11 @@
     @endif
 
     @if(Route::is('recipes'))  
-    <a class="ml-2 mr-20" href="{{ route('recipes') }}">
+    <a class="ml-2 mr-24" href="{{ route('recipes') }}">
         <img width="30px;" src="/images/navbar/recipes_hover.png">
     </a> 
     @else
-    <a class="ml-2 mr-20" href="{{ route('recipes') }}">
+    <a class="ml-2 mr-24" href="{{ route('recipes') }}">
         <img width="30px;" src="/images/navbar/recipes.png">
     </a>
     @endif
