@@ -11,8 +11,21 @@
         @include('navbar')
 
         <div style="margin-top: 150px;">
-       
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <h6>Popular Recipes</h6>
+    <div class="d-flex flex-row flex-nowrap overflow-auto">
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
+     <div class="card card-block mx-2" style="min-width: 100px; min-height: 100px;">Card</div>            
+</div>
+
         </div>
+        
     </div>
 </x-guest-layout>
 

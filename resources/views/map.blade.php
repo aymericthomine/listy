@@ -81,6 +81,7 @@ body {
 </html>
 <script type="text/javascript">
     function initialize() {
+        
         var map = L.map('map').setView([48.833, 2.333], 12); // LIGNE 18
 
         var osmLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { // LIGNE 20
