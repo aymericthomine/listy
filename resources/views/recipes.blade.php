@@ -18,14 +18,65 @@
 
             @include('navbar')
 
-            <div style="margin-top: 150px;">
-
+            <div >
+            <div class="row">
+  <!-- Mobile Card Container -->
+  <div class="col-12 mobile-card-container">
+    <div class="row">
+      <!-- Card 48 cuotas -->
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid red;">
+        Card content
+      </div>
+      <!-- /Card 48 cuotas -->
+      <!-- Card 36 cuotas-->
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid blue;">
+        Card Content
+      </div>
+      <!-- /Card 36 cuotas -->
+      <!-- Card 24 cuotas -->
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+      <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
+        Card Content
+      </div>
+    </div>
+  </div>
+</div>
             </div>
     </div>
 
 </x-guest-layout>
 
 <style>
+.mobile-card-container {
+  display: block;
+}
+
+.card-background {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 16px;
+  height: 100px;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+  -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+  box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+}
 html, body { height : 100%; }
 
 body {

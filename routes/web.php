@@ -46,3 +46,4 @@ Route::get('/forgot-password/{token}'   , function (Request $request) {
 Route::get('/images',         [ImageController::class, 'create']);
 Route::post('/images',        [ImageController::class, 'store']);
 Route::get('/images/{image}', [ImageController::class, 'show']);
+
