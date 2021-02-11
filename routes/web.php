@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Mailjet\LaravelMailjet\Facades\Mailjet;
+use App\Http\Controllers\ImageController;
+use App\Models\Image;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,3 +42,7 @@ Route::get('/forgot-password/{token}'   , function (Request $request) {
     }
     return view('login');
 })->name('auth.forgot-password');
+
+Route::get('/images',         [ImageController::class, 'create']);
+Route::post('/images',        [ImageController::class, 'store']);
+Route::get('/images/{image}', [ImageController::class, 'show']);
