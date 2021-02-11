@@ -30,7 +30,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::group(['middleware' => 'auth']   , function () {
 
-        Route::get('/recipes'           , function () { return view('recipes'); })->name('recipes');
+        Route::get('/recipes'       , function () { return view('recipes'); })->name('recipes');
         Route::get('/profile'       , function () { return view('profile'); })->name('profile');
         Route::get('/map'           , function () { return view('map'); })->name('map');
 
@@ -43,6 +43,7 @@ Route::get('/forgot-password/{token}'   , function (Request $request) {
     return view('login');
 })->name('auth.forgot-password');
 
+Route::get('/images',         [ImageController::class, 'create']);
+Route::post('/images',        [ImageController::class, 'store']);
+Route::get('/images/{image}', [ImageController::class, 'show']);
 
-Route::get('/images', [WelcomeController::class, 'index']);
-Route::resource('images', [WelcomeController::class, 'only' => ['store', 'destroy']]);
