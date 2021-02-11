@@ -43,7 +43,6 @@ Route::get('/forgot-password/{token}'   , function (Request $request) {
     return view('login');
 })->name('auth.forgot-password');
 
-Route::get('/images',         [ImageController::class, 'create']);
-Route::post('/images',        [ImageController::class, 'store']);
-Route::get('/images/{image}', [ImageController::class, 'show']);
 
+Route::get('/images', [WelcomeController::class, 'index']);
+Route::resource('images', [WelcomeController::class, 'only' => ['store', 'destroy']]);
