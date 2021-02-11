@@ -25,7 +25,6 @@
             <!doctype html>
 <html>
     <head>
-        <script type="text/javascript" src="data.json"></script>
         <script type="text/javascript" >
             function load() {
                 var mydata = JSON.parse(data);
@@ -72,7 +71,6 @@
             <!doctype html>
 <html>
     <head>
-        <script type="text/javascript" src="data.json"></script>
         <script type="text/javascript" >
             function load() {
                 var mydata = JSON.parse(data);
