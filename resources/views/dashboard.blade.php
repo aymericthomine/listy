@@ -21,33 +21,9 @@
     </div>
         <div class="d-flex flex-row flex-nowrap overflow-auto">
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; height: 150px;">
+
             
-            <!doctype html>
-<html>
-    <head>
-        <script type="text/javascript" >
-            function load() {
-                var mydata = JSON.parse(data);
-
-                var div = document.getElementById('data');
-
-                for(var i = 0;i < mydata.length; i++)
-                {
-                    div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
-                }
-            }
-
-            data = '[{"name" : "Riyaz"},{"name" : "Javed"}]';
-
-        </script>
-    </head>
-    <body onload="load()">
-        <div id="data">
-
-        </div>
-    </body>
-</html>
-
             
             </div>
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
@@ -64,7 +40,7 @@
     <a class="mt-4; ml-12" href="{{ route('recipes') }}">
     </a>
     </div>
-    <div class="d-flex flex-row flex-nowrap overflow-auto">
+    <div class="d-flex flex-row flex-nowrap overflow-auto" style>
             <div class="card card-block mx-2" style="min-width: 75px; min-height: 75px; border-radius: 10px;">
             <a href="{{ route('recipes') }}"><img src="/images/vegan.png" style="border-radius: 10px;"></a>
             </div>

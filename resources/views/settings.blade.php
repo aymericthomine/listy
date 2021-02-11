@@ -20,6 +20,27 @@
 
         @include('navbar')
 
+ 
+        <div style="margin-top: 100px;">
+            @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::updatePasswords()))
+                <div class="mt-10 sm:mt-0">
+                    @livewire('profile.update-password-form')
+                </div>
+
+                <x-jet-section-border />
+            @endif
+
+            @if (Laravel\Jetstream\Jetstream::hasAccountDeletionFeatures())
+                <x-jet-section-border />
+
+                <div class="mt-10 sm:mt-0">
+                    @livewire('profile.delete-user-form')
+                </div>
+            @endif
+        </div>
+
+
+
         <div class="fixed-bottom" style="display: flex; justify-content: center; margin-bottom: 200px">
             <form method="POST" action="{{ route('logout') }}">
                 @csrf
