@@ -14,6 +14,7 @@
     <h1 class="mt-10; fixed-top; font-listy" style="color: #020202; font-size:20px; font-weight:bold; margin-top: 50px;">Recipes</h1>
 
 
+
     </div>
 
             @include('navbar')
@@ -24,7 +25,7 @@
                     <div class="row">
                     
                     <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid red;">
-                        Card content
+                        Recipes::findOne();
                     </div>
                     <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid blue;">
                         Card Content
