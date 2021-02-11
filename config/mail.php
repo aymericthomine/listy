@@ -98,6 +98,10 @@ return [
         'paths' => [
             resource_path('views/vendor/mail'),
         ],
+<<<<<<< HEAD
     ],
     
+=======
+    ]
+>>>>>>> parent of 826cb89... new commit
 ];
