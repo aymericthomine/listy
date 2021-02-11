@@ -1,6 +1,9 @@
 [
     {
         "name": "Crock Pot Roast",
+        "price": "5",
+        "type": "diet",
+        "meal": "2",
         "ingredients": [
             {
                 "quantity": "1",
@@ -45,6 +48,9 @@
     },
     {
         "name": "Roasted Asparagus",
+        "price": "4",
+        "type": "gluten",
+        "meal": "1",
         "ingredients": [
             {
                 "quantity": "1 lb",
@@ -91,6 +97,9 @@
     },
     {
         "name": "Curried Lentils and Rice",
+        "price": "7",
+        "type": "vegan",
+        "meal": "3",
         "ingredients": [
             {
                 "quantity": "1 quart",
@@ -136,6 +145,9 @@
     },
     {
         "name": "Big Night Pizza",
+        "type": "diet",
+        "price": "3",
+        "meal": "2",
         "ingredients": [
             {
                 "quantity": "5 teaspoons",
@@ -200,6 +212,9 @@
     },
     {
         "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
+        "price": "5",
+        "type": "gluten",
+        "meal": "1",
         "ingredients": [
             {
                 "quantity": "2",
@@ -257,6 +272,9 @@
     },
     {
         "name": "Mic's Yorkshire Puds",
+        "price": "4",
+        "type": "vegan",
+        "meal": "3",
         "ingredients": [
             {
                 "quantity": "200g",
@@ -306,6 +324,9 @@
     },
     {
         "name": "Old-Fashioned Oatmeal Cookies",
+        "price": "6",
+        "type": "diet",
+        "meal": "4",
         "ingredients": [
             {
                 "quantity": "1 cup",
@@ -397,6 +418,9 @@
     },
     {
         "name": "Blueberry Oatmeal Squares",
+        "price": "7",
+        "type": "vegan",
+        "meal": "1",
         "ingredients": [
             {
                 "quantity": "2-1/2 cups",
@@ -474,6 +498,9 @@
     },
     {
         "name": "Curried chicken salad",
+        "price": "3",
+        "type": "gluten",
+        "meal": "3",
         "ingredients": [
             {
                 "quantity": "3",
