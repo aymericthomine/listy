@@ -33,6 +33,8 @@ Route::group(['middleware' => 'auth']   , function () {
         Route::get('/recipes'       , function () { return view('recipes'); })->name('recipes');
         Route::get('/profile'       , function () { return view('profile'); })->name('profile');
         Route::get('/map'           , function () { return view('map'); })->name('map');
+        Route::get('/categories'    , function () { return view('categories'); })->name('categories');
+        Route::get('/list'          , function () { return view('list'); })->name('list');
 
 });
 
