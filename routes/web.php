@@ -35,7 +35,7 @@ Route::group(['middleware' => 'auth']   , function () {
         Route::get('/map'           , function () { return view('map'); })->name('map');
         Route::get('/categories'    , function () { return view('categories'); })->name('categories');
         Route::get('/list'          , function () { return view('list'); })->name('list');
-
+        Route::get('/preferences'   , function () { return view('preferences'); })->name('preferences');
 });
 
 Route::get('/forgot-password/{token}'   , function (Request $request) {

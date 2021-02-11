@@ -16,7 +16,7 @@
     <div class="flex">
     <h6 class="mt-10; mb-6" style="color: #020202; font-size:20px; font-weight:bold;">Popular Recipes</h6>
     <a class="mt-4; ml-12" href="{{ route('recipes') }}">
-    <h6 class="font-listy;" style="color: #020202; font-size:15px; color: #8C0428; text-align: right;">See all (45)</h6>
+    <h6 class="font-listy;" style="color: #020202; font-size:15px; color: #8C0428; text-align: right; margin-top: 4px;">See all (45)</h6>
     </a>
     </div>
         <div class="d-flex flex-row flex-nowrap overflow-auto">
@@ -76,8 +76,9 @@
             </div>        </div>        
     </div>
 
-
+<a href="{{ route('preferences') }}">
 <button class="button-listy" style="width:280px;display: block;margin-left: auto;margin-right: auto; margin-top: 70px;">Preferences</button>
+</a>
 
 </x-guest-layout>
 
@@ -91,6 +92,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .button-listy {
