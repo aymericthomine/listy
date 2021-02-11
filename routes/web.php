@@ -30,9 +30,10 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::group(['middleware' => 'auth']   , function () {
 
-        Route::get('/recipes'           , function () { return view('recipes'); })->name('recipes');
+        Route::get('/recipes'       , function () { return view('recipes'); })->name('recipes');
         Route::get('/profile'       , function () { return view('profile'); })->name('profile');
         Route::get('/map'           , function () { return view('map'); })->name('map');
+        Route::get('/categories'    , function () { return view('categories'); })->name('categories');
 
 });
 
