@@ -97,7 +97,7 @@ body {
         }
         }).bindPopup(function(layer) {
 					console.log(layer.feature.properties);
-					return "Nom station : "+layer.feature.properties.enseigne;
+					return "Enseigne : "+layer.feature.properties.enseigne;
 				}).addTo(map);
 
         map.addLayer(osmLayer);
