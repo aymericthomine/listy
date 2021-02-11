@@ -14,13 +14,12 @@
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <div class="flex">
-    <h6 class="mt-6; mb-6" style="color: #020202; font-size:20px; font-weight:bold;">Popular Recipes</h6>
+    <h6 class="mt-10; mb-6" style="color: #020202; font-size:20px; font-weight:bold;">Popular Recipes</h6>
     <a class="mt-4; ml-12" href="{{ route('recipes') }}">
     <h6 class="font-listy;" style="color: #020202; font-size:15px; color: #8C0428; text-align: right;">See all (45)</h6>
     </a>
     </div>
         <div class="d-flex flex-row flex-nowrap overflow-auto">
-<<<<<<< HEAD
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
             
             <!doctype html>
@@ -51,9 +50,6 @@
 
             
             </div>
-=======
-            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
->>>>>>> parent of 6582fd4... new commit
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>            
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
@@ -61,7 +57,6 @@
         </div>        
     </div>
 
-<<<<<<< HEAD
 
 
     <div class="flex">
@@ -111,8 +106,6 @@
 
 <button class="button-listy" style="width:280px;display: block;margin-left: auto;margin-right: auto; margin-top: 70px;">Preferences</button>
 
-=======
->>>>>>> parent of 6582fd4... new commit
 </x-guest-layout>
 
 <style>
@@ -125,7 +118,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .button-listy {
@@ -135,7 +127,7 @@ body {
     border-radius: 10px;
     width : 100%;
     padding: 15px;
-    background-color: #F25C05;
+    background-color: #9D9743;
     cursor : pointer;
 }
 .button-listy:hover {

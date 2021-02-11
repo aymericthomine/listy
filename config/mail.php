@@ -98,14 +98,7 @@ return [
         'paths' => [
             resource_path('views/vendor/mail'),
         ],
-<<<<<<< HEAD
-    ],
-<<<<<<< HEAD
-    
-=======
-    ]
->>>>>>> parent of 826cb89... new commit
-=======
+
     'mailjet' => [
         'key' => env('MAILJET_APIKEY'),
         'secret' => env('MAILJET_APISECRET'),
@@ -137,5 +130,6 @@ return [
             ]
         ],
     ]
->>>>>>> parent of 6582fd4... new commit
+]
+
 ];
