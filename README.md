@@ -4,9 +4,6 @@
 
 Listy is a food application that allows you to generate an intelligent shopping list according to several selection criteria such as food preferences and the type of diet desired, while respecting a predefined budget.
 
-## Learning Laravel
-
-
 ## Contributor
 
 - Aymeric THOMINE <br/>
@@ -14,7 +11,6 @@ Listy is a food application that allows you to generate an intelligent shopping 
 - Guillaume MARCELINO <br/> 
 - Julien PARIS
 
-## Demo
 
 
 

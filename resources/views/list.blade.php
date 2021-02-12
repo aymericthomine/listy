@@ -22,7 +22,7 @@
         <div >
             <div class="row">
                 <div class="col-12 mobile-card-container">
-                    <h2 style="font-size: 19px; background-color: green; margin-top: 20px;" class="botton">Easy</h2>
+                    <h2 style="font-size: 19px; background-color: #020202; margin-top: 20px;" class="botton">Vegan - 02/01/2020</h2>
 
                     <h4 style="margin-top: 350x;">Incredients :</h4>
                     <ol>
