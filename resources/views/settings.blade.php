@@ -21,19 +21,43 @@
         @include('navbar')
 
  
-        <div style="margin-top: 100px;">
-            @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::updatePasswords()))
-                <div class="mt-10 sm:mt-0">
-                    @livewire('profile.update-password-form')
-                </div>
+        <x-jet-validation-errors class="mb-4 mt-10"/>
 
-                <x-jet-section-border />
-            @endif
-        </div>
+        @if (session('status'))
+            <div class="mb-4 font-medium text-sm text-green-600">
+                {{ session('status') }}
+            </div>
+        @endif
+
+        <form method="POST" action="{{ route('password.email') }}">
+            @csrf
+
+            <div class="mt-4" style="margin-top: 100px;">
+                <input id="email" class="block mt-1 w-full" style="border-radius: 10px; height: 50px; margin-bottom: 20px;" type="email" name="email" :value="old('email')" placeholder="Password" required autofocus />
+            </div>
+            <div class="mt-4" style="margin-top: 0px;">
+                <input id="email" class="block mt-1 w-full" style="border-radius: 10px; height: 50px; margin-bottom: 20px;" type="email" name="email" :value="old('email')" placeholder="New Password" required autofocus />
+            </div>
+            <div class="mt-4" style="margin-top: 0px;">
+                <input id="email" class="block mt-1 w-full" style="border-radius: 10px; height: 50px; margin-bottom: 20px;" type="email" name="email" :value="old('email')" placeholder="Confirm Password" required autofocus />
+            </div>
+
+            <div class="block mt-4">
+
+                <button class="button-listy" style="margin-top: 80px;">
+                    {{ __('Reset') }}
+                </button>
+            </div>
+
+        </form>
 
 
 
-        <div class="fixed-bottom" style="display: flex; justify-content: center; margin-bottom: 200px">
+        
+
+    </div>
+
+    <div class="fixed-bottom" style="display: flex; justify-content: center; margin-bottom: 200px">
             <form method="POST" action="{{ route('logout') }}">
                 @csrf
 
@@ -47,10 +71,6 @@
 
             </form>
         </div>
-
-    </div>
-
-
 </x-guest-layout>
 
 <style>

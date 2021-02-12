@@ -8,7 +8,7 @@
     
     <div style="margin:50px; text-align:center;">
 
-    <a class="flex; fixed-top" href="{{ route('dashboard') }}">
+    <a class="flex; fixed-top" href="{{ route('recipes') }}">
             <img width="30px;" style="margin-top: 50px; margin-left: 30px;" src="/images/header/back_black.png">
     </a>
     <h1 class="mt-10; fixed-top; font-listy" style="color: #020202; font-size:20px; font-weight:bold; margin-top: 50px;">New List</h1>
@@ -17,14 +17,39 @@
 
     </div>
 
-            @include('navbar')
+        @include('navbar')
 
-            <div >
+        <div >
             <div class="row">
-                
+                <div class="col-12 mobile-card-container">
+                    <h2 style="font-size: 19px; background-color: green; margin-top: 20px;" class="botton">Easy</h2>
+
+                    <h4 style="margin-top: 350x;">Incredients :</h4>
+                    <ol>
+                        <li>• beef roast (130 grams)<li>
+                        <li>• brown gravy mix (1 package)</li>
+                    </ol>
+                    <h4>Step by step :</h4>
+                    <h4 style="margin-top: 350x;">Incredients :</h4>
+                    <ol>
+                        <li>• beef roast (130 grams)<li>
+                        <li>• brown gravy mix (1 package)</li>
+                    </ol>
+                    <h4 style="margin-top: 350x;">Incredients :</h4>
+                    <ol>
+                        <li>• beef roast (130 grams)<li>
+                        <li>• brown gravy mix (1 package)</li>
+                    </ol>
+                    <h4 style="margin-top: 350x;">Incredients :</h4>
+                    <ol>
+                        <li>• beef roast (130 grams)<li>
+                        <li>• brown gravy mix (1 package)</li>
+                    </ol>
+                    <h1 style="margin-top: 350x;">Total : 34€</h1>
+                    
+                </div>
             </div>
-            
-            </div>
+        </div>
     </div>
 
 </x-guest-layout>
@@ -83,5 +108,15 @@ body {
 }
 .font-listy{
     font-family: "Roboto";
+}
+.botton{
+    color: white;
+    background: #020202;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
 }
 </style>
