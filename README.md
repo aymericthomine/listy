@@ -4,6 +4,14 @@
 
 Listy is a food application that allows you to generate an intelligent shopping list according to several selection criteria such as food preferences and the type of diet desired, while respecting a predefined budget.
 
+## Front-End
+- In /resources/views
+- In /public
+
+## Back-End
+- In /app
+- In /routes
+
 ## Contributor
 
 - Aymeric THOMINE <br/>
