@@ -21,18 +21,22 @@
     </div>
         <div class="d-flex flex-row flex-nowrap overflow-auto">
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <h1 style="font-size: 19px;" class="botton-left">Crock Pot Roast</h1>
             <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; height: 150px;">
             </div>
 
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <h1 style="font-size: 15px; padding: 8px;" class="botton-left">Roasted Asparagus</h1>
             <img src="http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg" style="border-radius: 10px; height: 150px;">
             </div>
 
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <h1 style="font-size: 20px; padding: 8px;" class="botton-left">Curried Lentils</h1>
             <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg" style="border-radius: 10px; height: 150px;">
             </div>
 
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <h1 style="font-size: 19px; padding: 9px;" class="botton-left">Big Night Pizza</h1>
             <img src="http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg" style="border-radius: 10px; height: 150px;">
             </div>
 
@@ -98,5 +102,14 @@ body {
 .text-right {
     display: flex;
     justify-content: flex-end;
+}
+.botton-left{
+    position: absolute;
+    color: white;
+    background: #020202;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6px;
+    
 }
 </style>
