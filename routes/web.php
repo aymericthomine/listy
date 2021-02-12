@@ -38,6 +38,8 @@ Route::group(['middleware' => 'auth']   , function () {
         Route::get('/categories'    , function () { return view('categories'); })->name('categories');
         Route::get('/list'          , function () { return view('list'); })->name('list');
         Route::get('/preferences'   , function () { return view('preferences'); })->name('preferences');
+        Route::get('/recipe_details'   , function () { return view('recipe_details'); })->name('recipe_details');
+        
 });
 
 Route::get('/forgot-password/{token}'   , function (Request $request) {
