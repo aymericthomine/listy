@@ -22,18 +22,22 @@
         <div class="d-flex flex-row flex-nowrap overflow-auto">
             <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
             <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; height: 150px;">
-
-            
-            
             </div>
-            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>
-            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>            
-            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
-            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">Card</div>                        
+
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <img src="http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg" style="border-radius: 10px; height: 150px;">
+            </div>
+
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg" style="border-radius: 10px; height: 150px;">
+            </div>
+
+            <div class="card card-block mx-2" style="min-width: 150px; min-height: 150px; border-radius: 10px;">
+            <img src="http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg" style="border-radius: 10px; height: 150px;">
+            </div>
+
         </div>        
     </div>
-
-
 
     <div class="flex">
     <h6 class="mt-10; mb-6" style="color: #020202; font-size:20px; font-weight:bold; margin-top:30px;">Categories</h6>
