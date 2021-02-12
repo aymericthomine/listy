@@ -1,4 +1,4 @@
-<p align="center"><img src="/public/images/listy_beige.png" width="400"></p>
+<p align="center"><img src="/public/images/listy_beige.png" width="300"></p>
 
 ## About Listy
 
@@ -12,9 +12,9 @@ Listy is a food application that allows you to generate an intelligent shopping 
 
 ### Contributor
 
-Aymeric THOMINE
-Cherubin NZELETE
-Guillaume MARCELINO
+Aymeric THOMINE <br/>
+Cherubin NZELETE <br/>
+Guillaume MARCELINO <br/> 
 Julien PARIS
 
 
