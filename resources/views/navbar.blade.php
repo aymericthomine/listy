@@ -100,14 +100,35 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <h1>New List</h1>
     <p>Number of meals</p>
 
-<div>
-  <input type="range" id="volume" name="volume"
-         min="0" max="11">
-  <label for="volume">10</label>
-</div>
-    <button class="button-listy" style="margin-top: 80px;">
-                    {{ __('Generate') }}
-    </button>
+  <div>
+    <input type="range" id="volume" name="volume"
+          min="0" max="11">
+    <label for="volume">10</label>
+  </div>
+
+  <html>
+ <body>
+  <head>
+   <title>
+     run
+   </title>
+  </head>
+
+   <form method="post">
+
+    <input type="submit" value="GO" name="GO">
+   </form>
+ </body>
+</html>
+
+    <?php
+      if(isset($_POST['GO']))
+      {
+        shell_exec("python3 /public/parser.py");
+        echo"success";
+      }
+    ?>
+
   </div>
 
 </div>

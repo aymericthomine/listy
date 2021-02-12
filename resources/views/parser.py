@@ -60,10 +60,6 @@ def search_unit_price(price):
 if (search_unit_price(item) != None):
     print(("la valeur est : ", search_unit_price(item)))
 else:
-    exp = keyval
-    print(exp)
+    
+    print("items is not founded")
 
-if (search_price(item) != None):
-      print("The price is:", search_price(item))
-else:
-  print("Item is not found")
