@@ -23,33 +23,43 @@
             <div class="row">
                 <div class="col-12 mobile-card-container">
                     <div class="row">
-                    
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid red;">
-                        Recipes::findOne();
+                    <a href="{{ route('recipe_details') }}">
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Crock Pot Roast</h1>
+                    <h2 style="font-size: 19px; background-color: green; margin-left: 253px;" class="botton-left">Easy</h2>
+                        <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; width: 500px; height: 150px;">
+
                     </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid blue;">
-                        Card Content
+                    </a>
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Roasted Asparagus</h1>
+                    <h2 style="font-size: 19px; background-color: red; margin-left: 253px;" class="botton-left">Hard</h2>
+                        <img src="http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg" style="border-radius: 10px; width: 500px; height: 150px;">  
+
                     </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Curried Lentils</h1>
+                    <h2 style="font-size: 19px; display: flex; justify-content: flex-end; background-color: #ef5b13; margin-left: 225px;" class="botton-left">Medium</h2>
+                        <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg" style="border-radius: 10px; width: 500px; height: 150px;">
+
                     </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Big Night Pizza</h1>
+                    <h2 style="font-size: 19px; display: flex; justify-content: flex-end; background-color: red; margin-left: 253px;" class="botton-left">Hard</h2>
+                        <img src="http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg" style="border-radius: 10px; width: 500px; height: 150px;">
+
                     </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Crock Pot Roast</h1>
+                    <h2 style="font-size: 19px; display: flex; justify-content: flex-end; background-color: green; margin-left: 253px;" class="botton-left">Easy</h2>
+                        <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; width: 500px; height: 150px;">
+
                     </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
-                    </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
-                    </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
-                    </div>
-                    <div class="col-10 card-background simulacion mx-auto" style="border: 1px solid green;">
-                        Card Content
+                    <div class=" card-background simulacion mx-auto">
+                    <h1 style="font-size: 19px;" class="botton-left">Crock Pot Roast</h1>
+                    <h2 style="font-size: 19px; display: flex; justify-content: flex-end; background-color: green; margin-left: 225px;" class="botton-left">Medium</h2>
+                        <img src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg" style="border-radius: 10px; width: 500px; height: 150px;">
+
                     </div>
                     </div>
                 </div>
@@ -71,7 +81,7 @@
   background-color: #ffffff;
   border-radius: 6px;
   margin-top: 16px;
-  height: 100px;
+  height: 150px;
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
   -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
   box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
@@ -94,7 +104,6 @@ body {
     color: white;
     border-radius: 10px;
     width : 100%;
-    padding: 15px;
     background-color: #F25C05;
     cursor : pointer;
 }
@@ -114,5 +123,16 @@ body {
 }
 .font-listy{
     font-family: "Roboto";
+}
+
+.botton-left{
+    position: absolute;
+    color: white;
+    background: #020202;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    padding: 6px;
+    
 }
 </style>
