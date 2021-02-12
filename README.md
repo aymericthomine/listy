@@ -7,14 +7,14 @@ Listy is a food application that allows you to generate an intelligent shopping 
 ## Learning Laravel
 
 
-## Laravel Sponsors
+## Contributor
 
+- Aymeric THOMINE <br/>
+- Cherubin NZELETE <br/>
+- Guillaume MARCELINO <br/> 
+- Julien PARIS
 
-### Contributor
+## Demo
 
-Aymeric THOMINE <br/>
-Cherubin NZELETE <br/>
-Guillaume MARCELINO <br/> 
-Julien PARIS
 
 
